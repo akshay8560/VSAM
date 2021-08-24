@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/postUserProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/whiteColor"
+            app:strokeWidth="0.5dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/postUserProfile"
+            android:text="Vivek"
+            android:textStyle="bold"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView8"
+            android:layout_marginStart="8dp"
+            android:textStyle="normal"
+            android:textSize="14sp"
+            android:layout_toEndOf="@+id/postUserProfile"
+            android:text="New Delhi"
+            android:textColor="@color/toolbarColor" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_more" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/white_bg_upper_round_corner"
+        android:maxHeight="700dp"
+        android:minHeight="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/picccc" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/relativeLayout1"
+        android:layout_alignBottom="@+id/relativeLayout1"
+        android:alpha="0.6"
+        android:background="@drawable/rv_bottom_gradient" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/likes"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+
+            android:src="@drawable/ic_heart" />
+
+        <ImageView
+            android:id="@+id/comments"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/likes"
+            android:src="@drawable/ic_comment" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/comments"
+            android:src="@drawable/ic_share" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_save" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/likes"
+            android:layout_marginTop="8dp"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/whiteColor"
+            app:strokeWidth="0.5dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/pic"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/likes"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="24dp"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/whiteColor"
+            app:strokeWidth="0.5dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/picc"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/likes"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="48dp"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/whiteColor"
+            app:strokeWidth="0.5dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/piccc"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/likes"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="72dp"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/whiteColor"
+            app:strokeWidth="0.5dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/pic"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

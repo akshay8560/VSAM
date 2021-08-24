@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "563942199510",
+    "firebase_url": "https://vsaminternet-default-rtdb.firebaseio.com",
+    "project_id": "vsaminternet",
+    "storage_bucket": "vsaminternet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563942199510:android:0f9c2fa11b1d618d89b977",
+        "android_client_info": {
+          "package_name": "cryptos.cryptocurrency.vsam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563942199510-il7v032n42m0ioctjed5l0vle0avphv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cryptos.cryptocurrency.vsam",
+            "certificate_hash": "3e6e40b0beef35e260a64c30eb00a6e9b5fb3dd4"
+          }
+        },
+        {
+          "client_id": "563942199510-j17213rnputu811j1vncl8q42r7e1cs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhkC64iH_NUezJH3VtOX8a9ODkUn_-VSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563942199510-j17213rnputu811j1vncl8q42r7e1cs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
